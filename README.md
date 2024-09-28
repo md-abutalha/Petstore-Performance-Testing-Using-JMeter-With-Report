@@ -37,6 +37,19 @@ jmeter -v
 ### Step 2: Running the Test
 Once the test plan is configured, execute the performance test by clicking the start button in JMeter. You can also save the test plan for later execution using the command line.
 
+## BlazeMeter for Cloud Testing
+BlazeMeter was used to execute the tests in the cloud, allowing better scalability and advanced reporting capabilities. Below is the setup and usage guide for BlazeMeter.
+
+### Step 1: Setting Up BlazeMeter
+- Visit BlazeMeter and create an account.
+- Upload your JMeter .jmx test plan to BlazeMeter.
+- Configure the test by selecting the number of concurrent users, location, and duration.
+- Run the test in the cloud and monitor the test execution through BlazeMeter's real-time reporting tools.
+  
+### Step 2: Monitoring and Capturing Results
+- BlazeMeter allows real-time monitoring of metrics such as response times, errors, and throughput.
+- Once the test is complete, you can view detailed reports, including TPS, error rates, and APDEX score, directly on the BlazeMeter dashboard.
+
 ## _Test Scenarios_
 Server: https://petstore.octoperf.com/
 
